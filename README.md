@@ -1,7 +1,7 @@
 Google Drive Automation Script for Legacy Systems
 -------------------------------------------------------
 **Project Scope**
-This project provides a Python-based solution for automating file uploads to Google Drive, designed specifically for obsolete systems like Windows 7, which no longer support the installation of the Google Drive desktop application for scheduled backups.
+This project provides a Python-based script for automating file uploads to Google Drive, designed specifically for obsolete systems like Windows 7, which no longer support the installation of the Google Drive desktop application for scheduled backups.
 
 **Directory Scan:**
 Finds the latest file in D:\BKUP by modification time.
@@ -23,7 +23,7 @@ Prints the success message, including the file ID, or shows errors with stack tr
 **Seamless Authentication:** Uses a browser-based authentication flow to sign in to Google Drive, ensuring compatibility and security.
 
 **Automation:** Automatically selects the latest file from a designated directory and uploads it to Google Drive.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 **Features**
 Scans a specified folder for the most recently modified file.
 Uploads the selected file to Google Drive using API calls.
@@ -34,7 +34,7 @@ Designed for scenarios requiring the backup of crucial files.
 Place the script on the target system (e.g., Windows 7).
 Set the directory containing the files (my folder: D:\BKUP) change this in the python script.
 Ensure a valid credentials.json is provided for authentication.
-Run the script to automatically find the latest file and upload it to Google Drive.
+Run the script to automatically using schtask.exe, it will find the latest file and upload it to Google Drive.
 
 **System Requirements**
 Python 3.x
