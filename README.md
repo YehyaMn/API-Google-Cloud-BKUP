@@ -124,8 +124,8 @@ The file should be zipped and uploaded to google drive as below:
 
 ![Capture google Cloud 3](https://github.com/user-attachments/assets/95b75235-6079-42a2-9a05-9b63538afc42)
 
-
-Please contact [me](Yehyamnaimneh@gmail.com) for any questions or troubleshooting steps, if you encountered any problems. 
+I wanted to share this with you guys, and thanks for reading it out if you reached it here.
+Please contact me for any questions or troubleshooting steps, if you encountered any problems. 
 
 
 
