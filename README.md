@@ -60,6 +60,8 @@ Click Create Credentials and select OAuth 2.0 Client ID.
 4-Set Up OAuth Consent Screen:
 Fill out the required fields (application name, email, etc.).
 Under "Scopes," add https://www.googleapis.com/auth/drive.file.
+
+it should look somthing like this:
 ![Capture google Cloud](https://github.com/user-attachments/assets/2bea5909-68be-49a8-81a2-1b2805cfd279)
 
 5-Download Credentials:
