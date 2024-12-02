@@ -45,15 +45,18 @@ Necessary Python libraries: google-auth, google-auth-oauthlib, google-api-python
 1-Go to [Google Cloud Console]( https://console.cloud.google.com/.).
 Create a Project:
 Click on the **project** dropdown menu.
-Select New Project and give it a name (e.g., "Drive API Script").
+Select New Project and give it a name (e.g., "Backup-To-GoogleDrive").
+
 
 2-Enable Google Drive API:
 Go to the APIs & Services > Library section.
 Search for "Google Drive API" and click Enable.
-Create Credentials:
+
+3-Create Credentials:
 Go to APIs & Services > Credentials.
 Click Create Credentials and select OAuth 2.0 Client ID.
-Set Up OAuth Consent Screen:
+
+4-Set Up OAuth Consent Screen:
 Fill out the required fields (application name, email, etc.).
 Under "Scopes," add https://www.googleapis.com/auth/drive.file.
 Download Credentials:
