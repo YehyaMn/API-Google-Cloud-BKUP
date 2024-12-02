@@ -103,7 +103,6 @@ Create a new task:
 In the **General** tab, give the task a name.
 In the **Triggers** tab, set the schedule (e.g., daily, or at specific intervals).
 In the **Actions** tab, set the program/script to python.exe (the path should look like D:\Upload_to_drive.py) depending on the filename
-![GCP](https://github.com/user-attachments/assets/59104c05-702a-490b-8461-744003395120)
 
  
 In the Arguments section, add the full path to the Python script:
