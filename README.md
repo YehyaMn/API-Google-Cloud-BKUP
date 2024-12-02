@@ -43,6 +43,7 @@ Necessary Python libraries: google-auth, google-auth-oauthlib, google-api-python
 **Step 1: Create Google API Credentials for Google Drive**
 -------------------------------------------------------------
 1-Go to [Google Cloud Console]( https://console.cloud.google.com/.).
+
 Create a Project:
 Click on the **project** dropdown menu.
 Select New Project and give it a name (e.g., "Backup-To-GoogleDrive").
@@ -50,7 +51,7 @@ Select New Project and give it a name (e.g., "Backup-To-GoogleDrive").
 
 2-Enable Google Drive API:
 Go to the APIs & Services > Library section.
-Search for "Google Drive API" and click Enable.
+Search for "Google Drive API" and click Enable for all relevent APIs.
 
 3-Create Credentials:
 Go to APIs & Services > Credentials.
@@ -59,5 +60,17 @@ Click Create Credentials and select OAuth 2.0 Client ID.
 4-Set Up OAuth Consent Screen:
 Fill out the required fields (application name, email, etc.).
 Under "Scopes," add https://www.googleapis.com/auth/drive.file.
-Download Credentials:
-After creating the OAuth 2.0 Client ID, download the JSON file (credentials.json) to a known location (e.g., D:\credentials.json).
+![Capture google Cloud](https://github.com/user-attachments/assets/2bea5909-68be-49a8-81a2-1b2805cfd279)
+
+5-Download Credentials:
+After creating the OAuth 2.0 Client ID, download the JSON file (credentials.json) to the same location that the python script is running from (e.g., D:\credentials.json).
+
+---------------------------------------------------------
+**Step 2: Install Python**
+Download Python 3.8.10 (which is the latest version supported for Windows 7) from the official Python website at https://www.python.org/downloads/release/python-3810/.
+
+3. Install Required Python Libraries
+cmd
+pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+
+
