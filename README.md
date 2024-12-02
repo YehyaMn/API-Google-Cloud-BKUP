@@ -84,6 +84,7 @@ Make sure that the script is updated to use the correct paths:
 The credentials.json file should be located at D:\credentials.json.
 
 The directory from which you want to upload files should be D:\BKUP.
+
 To test the script, open Command Prompt and run:
 cmd
 
@@ -105,6 +106,10 @@ cmd
 
 D:\BKUP\uploader.py
 Save the task and manually test it by right-clicking the task and selecting Run to ensure it works.
+It should look like this:
+
+![GCP](https://github.com/user-attachments/assets/61808147-11e5-4d27-a525-fd8c53528d58)
+
 -----------------------------------------------
 **6. Check the google drive**
 The file should be zipped and uploaded to google drive.
