@@ -76,7 +76,9 @@ cmd
 pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
 --------------------------------------------------
-**4. **Prepare and Test the Script****
+*4. **Prepare and Test the Script**
+
+4. Prepare and Test the Script
 Place your Python script (e.g., uploader.py) in the directory D:\BKUP.
 Make sure that the script is updated to use the correct paths:
 The credentials.json file should be located at D:\credentials.json.
@@ -86,6 +88,7 @@ cmd
 Copy code
 python D:\BKUP\uploader.py
 This will authenticate with Google Drive and upload the latest file from the specified directory.
+
 ----------------------------------------
 **5.** Automate with Windows Task Scheduler****
 Open Task Scheduler by searching for it in the Start Menu.
