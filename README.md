@@ -80,6 +80,8 @@ pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-pyt
 
 Place your Python script (e.g., uploader.py) in the directory D:\BKUP.
 
+![GCP](https://github.com/user-attachments/assets/61808147-11e5-4d27-a525-fd8c53528d58)
+
 Make sure that the script is updated to use the correct paths:
 The credentials.json file should be located at D:\credentials.json.
 
@@ -108,7 +110,8 @@ D:\BKUP\uploader.py
 Save the task and manually test it by right-clicking the task and selecting Run to ensure it works.
 It should look like this:
 
-![GCP](https://github.com/user-attachments/assets/61808147-11e5-4d27-a525-fd8c53528d58)
+![Capture google Cloud 2](https://github.com/user-attachments/assets/d167b593-744c-490d-8deb-8d70a5d4d04a)
+
 
 -----------------------------------------------
 **6. Check the google drive**
