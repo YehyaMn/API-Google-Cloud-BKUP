@@ -33,7 +33,7 @@ Designed for scenarios requiring the backup of crucial files.
 
 **Usage Example**
 Place the script on the target system (e.g., Windows 7).
-Set the directory containing the files (my folder: D:\BKUP) change this in the python script.
+Set the directory containing the files (in my case, my folder: D:\BKUP) change this in the python script.
 Ensure a valid credentials.json is provided for authentication.
 Run the script to automatically using schtask.exe, it will find the latest file and upload it to Google Drive.
 
