@@ -10,7 +10,7 @@ Finds the latest file in D:\BKUP by modification time.
 Authenticates with Google Drive via D:\credentials.json or token.json.
 
 **File Upload:**
-Uploads the latest file to Google Drive.
+s the latest file to Google Drive.
 
 **Confirmation:**
 Prints the success message, including the file ID, or shows errors with stack traces.
@@ -78,7 +78,7 @@ pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-pyt
 --------------------------------------------------
 *4. **Prepare and Test the Script**
 
-Place your Python script (e.g., Upload_to_drive.py) in the directory D:\
+Place your Python script (e.g., upload_to_drive.py) in the directory D:\
 
 ![GCP](https://github.com/user-attachments/assets/61808147-11e5-4d27-a525-fd8c53528d58)
 
@@ -90,7 +90,7 @@ The directory from which you want to upload files should be D:\BKUP.
 To test the script, open Command Prompt and run:
 cmd
 
-python D:\Upload_to_drive.py
+python D:\upload_to_drive.py
 
 It will create a token.json file initially and will use it aftewards in the automated process.
 
@@ -102,13 +102,15 @@ Open Task Scheduler by searching for it in the Start Menu.
 Create a new task:
 In the **General** tab, give the task a name.
 In the **Triggers** tab, set the schedule (e.g., daily, or at specific intervals).
-In the **Actions** tab, set the program/script to python.exe (the path should look like D:\Upload_to_drive.py) depending on the filename
+In the **Actions** tab, set the program/script to python.exe (the path should look like D:\upload_to_drive.py) depending on the filename
 
  
 In the Arguments section, add the full path to the Python script:
+
 cmd
 
-D:\BKUP\uploader.py
+D:\upload_to_drive.py
+
 Save the task and manually test it by right-clicking the task and selecting Run to ensure it works.
 It should look like this:
 
@@ -121,6 +123,5 @@ The file should be zipped and uploaded to google drive.
 
 Please contact me for any questions or troubleshooting steps, if you encountered any problems. 
 
-Yehya Mn
 
 
