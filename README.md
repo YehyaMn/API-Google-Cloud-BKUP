@@ -86,22 +86,31 @@ The credentials.json file should be located at D:\credentials.json.
 The directory from which you want to upload files should be D:\BKUP.
 To test the script, open Command Prompt and run:
 cmd
-Copy code
+
 python D:\BKUP\uploader.py
+
+It will create a token.json file initially and will use it aftewards in the automated process.
 
 This will authenticate with Google Drive and upload the latest file from the specified directory.
 
 ----------------------------------------
-**5.** Automate with Windows Task Scheduler****
+**5.Automate with Windows Task Scheduler**
 Open Task Scheduler by searching for it in the Start Menu.
 Create a new task:
-In the General tab, give the task a name.
-In the Triggers tab, set the schedule (e.g., daily, or at specific intervals).
-In the Actions tab, set the program/script to python.exe (the path should look like C:\Python38\python.exe).
+In the **General** tab, give the task a name.
+In the **Triggers** tab, set the schedule (e.g., daily, or at specific intervals).
+In the **Actions** tab, set the program/script to python.exe (the path should look like C:\Python38\python.exe).
 In the Arguments section, add the full path to the Python script:
 cmd
-Copy code
+
 D:\BKUP\uploader.py
 Save the task and manually test it by right-clicking the task and selecting Run to ensure it works.
+-----------------------------------------------
+**6. Check the google drive**
+The file should be zipped and uploaded to google drive.
+
+Please contact me for any questions or troubleshooting steps, if you encountered any problems. 
+
+Yehya Mn
 
 
