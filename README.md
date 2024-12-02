@@ -19,7 +19,9 @@ Prints the success message, including the file ID, or shows errors with stack tr
 
 **Purpose**
 Workaround for Unsupported Systems: Bypasses the limitation of installing the Google Drive .exe by utilizing the Google Drive API.
+
 Automation: Automatically selects the latest file from a designated directory and uploads it to Google Drive.
+
 Seamless Authentication: Uses a browser-based authentication flow to sign in to Google Drive, ensuring compatibility and security.
 
 
