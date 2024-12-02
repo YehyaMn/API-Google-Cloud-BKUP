@@ -1,13 +1,13 @@
 "# API-Google-Cloud-BKUP" 
 
-Directory Scan:
+**Directory Scan:**
 Finds the latest file in D:\BKUP by modification time.
 
-Authentication:
+**Authentication:**
 Authenticates with Google Drive via D:\credentials.json or token.json.
 
-File Upload:
+**File Upload:**
 Uploads the latest file to Google Drive.
 
-Confirmation:
+**Confirmation:**
 Prints the success message, including the file ID, or shows errors with stack traces.
