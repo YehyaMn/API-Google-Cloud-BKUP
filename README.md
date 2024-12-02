@@ -75,4 +75,28 @@ Download Python 3.8.10 (which is the latest version supported for Windows 7) fro
 cmd
 pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
+--------------------------------------------------
+**4. **Prepare and Test the Script****
+Place your Python script (e.g., uploader.py) in the directory D:\BKUP.
+Make sure that the script is updated to use the correct paths:
+The credentials.json file should be located at D:\credentials.json.
+The directory from which you want to upload files should be D:\BKUP.
+To test the script, open Command Prompt and run:
+cmd
+Copy code
+python D:\BKUP\uploader.py
+This will authenticate with Google Drive and upload the latest file from the specified directory.
+----------------------------------------
+**5.** Automate with Windows Task Scheduler****
+Open Task Scheduler by searching for it in the Start Menu.
+Create a new task:
+In the General tab, give the task a name.
+In the Triggers tab, set the schedule (e.g., daily, or at specific intervals).
+In the Actions tab, set the program/script to python.exe (the path should look like C:\Python38\python.exe).
+In the Arguments section, add the full path to the Python script:
+cmd
+Copy code
+D:\BKUP\uploader.py
+Save the task and manually test it by right-clicking the task and selecting Run to ensure it works.
+
 
