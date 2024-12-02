@@ -78,7 +78,7 @@ pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-pyt
 --------------------------------------------------
 *4. **Prepare and Test the Script**
 
-Place your Python script (e.g., uploader.py) in the directory D:\BKUP.
+Place your Python script (e.g., Upload_to_drive.py) in the directory D:\
 
 ![GCP](https://github.com/user-attachments/assets/61808147-11e5-4d27-a525-fd8c53528d58)
 
@@ -90,7 +90,7 @@ The directory from which you want to upload files should be D:\BKUP.
 To test the script, open Command Prompt and run:
 cmd
 
-python D:\BKUP\uploader.py
+python D:\Upload_to_drive.py
 
 It will create a token.json file initially and will use it aftewards in the automated process.
 
@@ -102,7 +102,7 @@ Open Task Scheduler by searching for it in the Start Menu.
 Create a new task:
 In the **General** tab, give the task a name.
 In the **Triggers** tab, set the schedule (e.g., daily, or at specific intervals).
-In the **Actions** tab, set the program/script to python.exe (the path should look like D:\BKUP\Upload-to-drive.py) depending on the filename
+In the **Actions** tab, set the program/script to python.exe (the path should look like D:\Upload_to_drive.py) depending on the filename
 ![GCP](https://github.com/user-attachments/assets/59104c05-702a-490b-8461-744003395120)
 
  
