@@ -78,7 +78,6 @@ pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-pyt
 --------------------------------------------------
 *4. **Prepare and Test the Script**
 
-4. Prepare and Test the Script
 Place your Python script (e.g., uploader.py) in the directory D:\BKUP.
 
 Make sure that the script is updated to use the correct paths:
