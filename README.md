@@ -38,3 +38,23 @@ Run the script to automatically find the latest file and upload it to Google Dri
 **System Requirements**
 Python 3.x
 Necessary Python libraries: google-auth, google-auth-oauthlib, google-api-python-client.
+
+-------------------------------------------------------------------------------------------------------------------------------
+**Step 1: Create Google API Credentials for Google Drive**
+-------------------------------------------------------------
+1-Go to [Google Cloud Console]( https://console.cloud.google.com/.).
+Create a Project:
+Click on the **project** dropdown menu.
+Select New Project and give it a name (e.g., "Drive API Script").
+
+2-Enable Google Drive API:
+Go to the APIs & Services > Library section.
+Search for "Google Drive API" and click Enable.
+Create Credentials:
+Go to APIs & Services > Credentials.
+Click Create Credentials and select OAuth 2.0 Client ID.
+Set Up OAuth Consent Screen:
+Fill out the required fields (application name, email, etc.).
+Under "Scopes," add https://www.googleapis.com/auth/drive.file.
+Download Credentials:
+After creating the OAuth 2.0 Client ID, download the JSON file (credentials.json) to a known location (e.g., D:\credentials.json).
